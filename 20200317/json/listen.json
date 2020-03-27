@@ -1,0 +1,29 @@
+[
+    {
+        "type": 1,
+        "itemList": [
+            {
+                "id": "1",
+                "src": "",
+                "title": "第一期"
+            },
+            {
+                "id": "2",
+                "src": "",
+                "title": "第二期"
+            }
+        ]
+    },
+    {
+        "type": 2,
+        "itemList": [
+            {
+                "id": "1",
+                "src": "",
+                "title": "新版纳税人套餐",
+                "time": "2020-1-30",
+                "numberOfPlayer": 445
+            }
+        ]
+    }
+]

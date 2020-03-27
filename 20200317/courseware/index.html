@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maixmum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>交互课件</title>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/Animate/animate.min.css">
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/indexText.css">
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-1">
+                <header>
+                    <img src="./iamge/Session_box.png" alt="">
+                    <div class="text content">
+                        <h1>
+                            <span class="capital">重</span>
+                            <span>磅</span>
+                            <span>消</span>
+                            <span>息</span>
+                            <span class="capital">！</span>
+                        </h1>
+                        <h2>
+                            <span class="capital">个</span>
+                            <span>税</span>
+                            <span>最</span>
+                            <span>新</span>
+                            <span>规</span>
+                            <span class="capital">定</span>
+                        </h2>
+                        <p class="animated fadeInUp">年收入12万以下免除汇算清缴</p>
+                    </div>
+                </header>
+                <main>
+                    <img src="./iamge/home_pic.png" alt="">
+                    <div class="btn">
+                        <a href="javascript:;">一起去了解一下吧！</a>
+                    </div>
+                    <div class="finger-pic">
+                        <img src="./iamge/finger.png" alt="">
+                    </div>
+                </main>
+                <!-- 底部波浪 -->
+                <footer>
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave"
+                                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                        </g>
+                    </svg>
+                </footer>
+            </div>
+            <div class="swiper-slide swiper-2">
+                <div class="section-one">
+                    <p>11月22日</p>
+                    <p>国务院常务会议</p>
+                </div>
+                <div class="section-two">
+                    <img src="./iamge/second_page_pic.png" alt="">
+                </div>
+                <div class="section-three">
+                    <p>为进一步减轻纳税人特别是中低收入群体负担，<br>
+                        暂定两年内对综合所得年收入不超过12万元<br>
+                        或年度补税金额较低的纳税人，<br>
+                        免除汇算清缴义务。</p>
+                </div>
+                <div class="section-four">
+                    <div class="pic">
+                        <img src="./iamge/doc.png" alt="">
+                    </div>
+                    <button>政策原文.doc</button>
+                </div>
+                <div class="slide-up-btn">
+                    <a href="javascript:;"><img src="./iamge/slide_up_black.png" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-slide swiper-3">
+                <div class="section-one">
+                    <p>会议<span>确定</span></p>
+                    <p>个税优惠政策重点</p>
+                    <p>包括以下几点：</p>
+                    <div class="pic">
+                        <img src="./iamge/pic_01.png" alt="">
+                    </div>
+                </div>
+                <div class="section-three">
+                    <div class="first-point">
+                        <span>1</span>
+                        <span><a href="javascript:;">要合理有序建立个人所得税年度汇算清缴制度</a></span>
+                    </div>
+                    <div style="display: none;">
+                        <span>2</span>
+                        <span>暂定两年内对综合所得年收入不超过12万元或年度补税金额较低的纳税人免除汇算清缴义务</span>
+                    </div>
+                    <div style="display: none;">
+                        <span>3</span>
+                        <span>使专项附加扣除政策更好落实并不断完善</span>
+                    </div>
+                    <div style="display: none;">
+                        <span>4</span>
+                        <span>实现税制可持续</span>
+                    </div>
+                    <!-- audio -->
+                    <div id="audioDiv">
+                        <audio id="audio" controls="controls" autoplay="autoplay">
+                            <source src="./audio/example-2.mp3" type="audio/mpeg" />
+                        </audio>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide swiper-4">
+                <div class="section-one">
+                    <p>税率表</p>
+                    <div class="table-bg">
+                        <table>
+                            <tr class="tr-height-first">
+                                <td>级数</td>
+                                <td>累计预扣预缴应 <br>
+                                    纳税所得额</td>
+                                <td>预扣率 <br>
+                                    （%）</td>
+                                <td class="td-border-none">速算 <br>
+                                    扣除数</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>X ≤ 360000元</td>
+                                <td>3</td>
+                                <td class="td-border-none">0</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>36000元 < X ≤144000元</td> <td>10</td>
+                                <td class="td-border-none">2520</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>144000元 < X ≤300000元</td> <td>20</td>
+                                <td class="td-border-none">16920</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>300000元 < X ≤420000元</td> <td>25</td>
+                                <td class="td-border-none">31920</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>420000元 < X ≤660000元</td> <td>30</td>
+                                <td class="td-border-none">52920</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>660000元 < X ≤960000元</td> <td>35</td>
+                                <td class="td-border-none">85920</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>X ≥ 960000元</td>
+                                <td>45</td>
+                                <td class="td-border-none">181920</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="section-two">
+                    <div class="pic">
+                        <img src="./iamge/hand.png" alt="">
+                    </div>
+                    <div class="text">一般而言，需要缴税的个人所得包括两部
+                        分，即综合所得和分类所得，而综合所得又包
+                        括工薪、劳务报酬、稿酬、特许权使用费等。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./lib/jquery-3.4.1/jquery-3.4.1.js"></script>
+<script src="./lib/swiper/js/swiper.js"></script>
+<!-- rem适配 -->
+<script src="./js/rem.js"></script>
+<script src="./js/index.js"></script>
+<!-- audio js文件 -->
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<!-- <script src="js/jweixin-1.0.0.js"></script> -->
+<script src="./js/audio.js"></script>
+<script>
+    var swiperV = new Swiper('.swiper-container', {
+        direction: 'vertical', // 竖着切换
+        mousewheel: true, // 鼠标控制
+        //设置宽度为全屏  
+        width: window.innerWidth,
+        height: window.innerHeight,
+        // spaceBetween: 50, // 页面间隙
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+        },
+        on: {
+            init: function () {
+                //初始化
+            },
+            slideChangeTransitionEnd: function () { // 切换完执行的方法
+                var num = this.activeIndex; // 当前是第几个页面
+                // ......    // 这里是自己逻辑的代码
+                // console.log(num);
+
+            },
+        },
+    });
+</script>
+
+</html>
