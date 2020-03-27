@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #f4f4f4;
+}
+.courseware-two {
+  width: 100%;
+  padding: 0 0.4rem;
+}
+.courseware-two .header {
+  margin: 0.5rem 0;
+  font-size: 0.36rem;
+  text-align: center;
+}
+.courseware-two .header p:first-of-type {
+  display: inline-block;
+  font-size: 0.28rem;
+  background: #3d9fd6;
+  color: #fff;
+  padding: 0.05rem 0.1rem;
+}
+.courseware-two .header p:last-of-type {
+  margin: 0.2rem 0 0;
+  font-weight: 700;
+  color: #ff8a00;
+}
+.courseware-two .header img {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+.courseware-two .content .weixinAudioBox {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.courseware-two .content .weixinAudioBox .heade-img {
+  flex: 1;
+  width: 0.8rem;
+  max-width: 0.8rem;
+  min-width: 0.8rem;
+  height: 0.8rem;
+  background-color: #bfe5fb;
+  border-radius: 50%;
+  border: 0.04rem solid #fff;
+  overflow: hidden;
+}
+.courseware-two .content .weixinAudioBox .heade-img img {
+  width: 110%;
+  position: relative;
+  top: -0.3rem;
+  background: #bfe5fb;
+}
+.courseware-two .content .weixinAudioBox .audioObj {
+  flex: 9;
+  margin-left: 0.2rem;
+}
+.courseware-two .content .weixinAudioBox .audioObj::before {
+  content: "";
+  display: block;
+  width: 0.2rem;
+  height: 0.2rem;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0.9rem;
+  transform: translateY(-50%) rotate(-135deg);
+}
+.courseware-two .content .pic {
+  width: 96%;
+  margin: 0.5rem auto;
+  background: #fff;
+  border-radius: 0.2rem;
+  border: 0.2rem solid #80c5ed;
+  overflow: hidden;
+}
+.courseware-two .content .pic img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
